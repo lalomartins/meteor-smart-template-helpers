@@ -28,7 +28,7 @@ TemplateHelpers =
 
 TemplateHelpers.timeDisplayDep = new Tracker.Dependency
 TemplateHelpers.timeDisplayDep._interval = Meteor.setInterval ->
-    CBGA.timeDisplayDep.changed()
+    TemplateHelpers.timeDisplayDep.changed()
 , 60000
 
 TemplateHelpers.add
